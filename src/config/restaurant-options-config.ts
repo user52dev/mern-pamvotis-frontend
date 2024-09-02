@@ -1,5 +1,4 @@
 export const cuisineList = [
-    "American",
     "BBQ",
     "Breakfast",
     "Burgers",
@@ -11,7 +10,6 @@ export const cuisineList = [
     "Healthy",
     "Indian",
     "Italian",
-    "Japanese",
     "Mexican",
     "Noodles",
     "Organic",
@@ -19,7 +17,6 @@ export const cuisineList = [
     "Pizza",
     "Salads",
     "Seafood",
-    "Spanish",
     "Steak",
     "Sushi",
     "Tacos",
