@@ -17,7 +17,7 @@ type Props = {
   onSubmit: (formData: SearchForm) => void;
   placeHolder: string;
   onReset?: () => void;
-  searchQuery: string;
+  searchQuery?: string;
 };
 
 export type SearchForm = z.infer<typeof formSchema>;
@@ -80,7 +80,7 @@ const SearchBar = ({ onSubmit, onReset, placeHolder, searchQuery }: Props) => {
         >
           Reset
         </Button>
-        <Button type="submit" className="rounded-full bg-blue-800">
+        <Button type="submit" className="rounded-full bg-yellow-400">
           Search
         </Button>
       </form>

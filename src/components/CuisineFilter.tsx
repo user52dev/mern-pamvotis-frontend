@@ -32,7 +32,7 @@ const CuisineFilter = ({
         <div className="text-md font-semibold mb-2">Filter by Cuisine</div>
         <div
           onClick={handleCuisinesReset}
-          className="text-sm font-semibold mb-2 underline cursor-pointer text-yellow-500"
+          className="text-sm font-semibold mb-2 underline cursor-pointer text-yellow-400"
         >
           Reset Filters
         </div>
@@ -57,7 +57,7 @@ const CuisineFilter = ({
                   htmlFor={`cuisine_${cuisine}`}
                   className={`flex flex-1 items-center cursor-pointer text-sm rounded-full px-4 py-2 font-semibold ${
                     isSelected
-                      ? "border border-blue-600 text-yellow-600"
+                      ? "border border-blue-600 text-yellow-400"
                       : "border border-slate-300"
                   }`}
                 >
