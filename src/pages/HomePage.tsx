@@ -24,7 +24,7 @@ const HomePage = () => {
         <img src={landingImage} />
         <div className="flex flex-col items-center justify-center gap-4 text-center">
           <span className="font-bold text-3xl tracking-tighter">
-            Order takeawy even faster!
+            Order take away even faster!
           </span>
           <span>
             Download the Pamvotis app for faster ordering and personalised
